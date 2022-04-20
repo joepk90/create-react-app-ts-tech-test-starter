@@ -1,0 +1,81 @@
+body {
+    @extend %baseFont;
+    font-size: $baseFontSize;
+    color: $textBaseColor;
+    line-height: 1.5em;
+}
+
+h1 {
+    @include h1FontSizes();
+}
+  
+h2 {
+  @include h2FontSizes();
+}
+
+h3 {
+  @include h3FontSizes();
+}
+
+h1, h2, h3 {
+  @extend %headingFont;
+  color: $textDarkGrey;
+  margin: 0.6em 0;
+}
+
+
+h4 {
+  font-size: $h4FontSize;
+}
+
+h5 {
+  font-size: $h5FontSize;
+}
+
+h6 {
+  font-size: $h6FontSize;
+}
+
+h4, h5, h6 {
+  font-family: $headingFont;
+  margin: 0px 0px 10px 0px;
+  line-height: 1.2;
+}
+
+p {
+  margin: 0 0 rem(5px);
+}
+
+a {
+  @extend %defaultAnimation;
+  @include linkColor();
+  text-decoration: none; 
+}
+
+.text-center {
+  text-align: center;
+}
+
+.h1-font-size {
+  @include h1FontSizes()
+}
+
+.h2-font-size {
+  @include h2FontSizes()
+}
+
+.h3-font-size {
+  @include h3FontSizes()
+}
+
+.h4-font-size {
+  font-size: $h4FontSize;
+}
+
+.h5-font-size {
+  font-size: $h5FontSize;
+}
+
+.h6-font-size {
+  font-size: $h6FontSize;
+}
