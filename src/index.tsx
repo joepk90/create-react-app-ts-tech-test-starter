@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'tacit-css/dist/tacit-css-1.5.5.css';
+import 'src/tacit.css';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

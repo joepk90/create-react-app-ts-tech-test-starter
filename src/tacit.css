@@ -1,0 +1,9 @@
+/* overrides */
+
+body {
+    padding: 36px;
+}
+
+td {
+    border-bottom-width: 1px;
+}
