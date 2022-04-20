@@ -41,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "node-sass": "^7.0.1",
     "normalize.css": "^8.0.1"
   }
 }
